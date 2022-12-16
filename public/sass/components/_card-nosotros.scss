@@ -1,0 +1,39 @@
+.card_nosotros{
+    flex-grow: 1;
+    padding: 10px;
+    width: 220px;
+    max-width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rebeccapurple;
+    overflow: hidden;
+    transition: 5ms;
+
+
+    &:hover,
+    &:focus {
+        transform: scale(1.5);
+        font-weight: bold;
+    }
+
+    &:nth-child(5n + 1) {
+        background-image: linear-gradient(to top, pink 0%, rebeccapurple 50%);
+        
+    }
+
+    &:nth-child(5n + 2) {
+        background-image: linear-gradient(to top, pink 0%, rebeccapurple 50%);
+    }
+
+    &:nth-child(5n + 3) {
+        background-image: linear-gradient(to top, pink 0%, rebeccapurple 75%);
+    }
+
+    &:nth-child(5n + 4) {
+        background-image: linear-gradient(to top, pink 0%, rebeccapurple 50%);
+    }
+
+    &:nth-child(5n + 5) {
+        background-image: linear-gradient(to top, pink 0%, rebeccapurple 50%);
+    }
+}

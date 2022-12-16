@@ -1,0 +1,69 @@
+
+.article-nosotros{
+    background: url(/img/productos/logi_tec.jpeg);
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 40em;
+}
+.cards_nosotros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    gap: 50px;
+    background: transparent;
+
+    @media (min-width: 1200px) {
+        & {
+            height:100%;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+    }
+    @media (max-width: 768px) {
+        & {
+          flex-direction: column-reverse; 
+          height: 100%;
+          width: 100%;
+          padding: 0;
+          margin: 0;
+          border: none;
+          object-fit: contain;
+        }
+    }
+}
+footer{
+    text-align: center;
+}
+p{
+    display: flex;
+    align-items: center;
+}
+.subtitulo-nosotros{
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    color: black;
+    border: 5px solid rebeccapurple;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+
+
+    &:hover {
+        transform: scale(1.5);
+        font-weight: bold;
+    }
+    &:nth-child(5n + 1) {
+        background-image: linear-gradient(to top, pink 0%, rebeccapurple 50%);
+        
+    }
+}

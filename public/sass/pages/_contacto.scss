@@ -1,0 +1,36 @@
+.formulario-contacto{
+    background: url(/img/productos/contacto.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#datos{
+    background: transparent;
+    text-align: center;
+}
+#contacto{
+    background: transparent;
+    text-align: center;
+}
+#tipo{
+    background: transparent;
+    text-align: center;
+}
+#terminos{
+    background: transparent;
+    text-align: center;
+    margin-left: 50px;
+}
+.sub-titulos{
+    background: transparent;
+    text-align: center;
+    font-size:xx-large;
+    font-weight:bold;
+}
+#reset{
+    &:hover {
+        background-color: red;
+    }
+}

@@ -1,0 +1,39 @@
+.formulario-alta {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-image: url(https://rockcontent.com/es/wp-content/uploads/sites/3/2019/02/descri%C3%A7%C3%A3o_de_produto_e_categoria-1024x538.png.webp);
+}
+h2 {
+    color: red;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    animation-name: titulo;
+    animation-duration: 5ms;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+}
+.listado{
+    background-image: url(https://rockcontent.com/es/wp-content/uploads/sites/3/2019/02/descri%C3%A7%C3%A3o_de_produto_e_categoria-1024x538.png.webp);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+
+}
+table,th, td {
+    border: 1px solid black; 
+    background: transparent;
+} 
+table {
+    border-radius: 10px;
+    width: 100%;
+    background: transparent;
+} 
+#listado-productos {
+    background: transparent;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+} 
+
