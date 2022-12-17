@@ -28,6 +28,18 @@
                 <!-- <label for="foto">Foto:</label>
                 <textarea class="input-largo input-largo-area" name="foto" placeholder="Foto"></textarea> -->
 
+                <div id="drop-area">
+                    <p>Subir imagen al servidor con <b>file dialog</b> o con <b>drag and drop</b> dentro del área punteada </p>
+                    <br>
+                    <input type="file" id="foto" accept="image/*">
+                    <label class="button" for="foto">File Dialog</label>
+                    <br><br>
+                    
+                    <progress id="progress-bar" max="100" value="0"></progress>
+                    
+                    <div id="gallery"><img src="" alt=""></div>
+                </div>
+
                 <input type="checkbox" value="envio" name="envio" id="envio">
                 <label for="envio">Envío</label>
             </fieldset>
